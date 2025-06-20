@@ -1,0 +1,17 @@
+2025_01_16 22:06:20 root WARNING: Неверный тип данных для имени объекта Runner [module_12_4 | MainThread]
+Traceback (most recent call last):
+  File "C:\PythonProjects\homework\Module_12\module_12_4.py", line 35, in test_run
+    person = test.Runner(24.16)  # Неверное имя - для проверки логгирования ошибки.
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\homework\Module_12\test_12_4.py", line 14, in __init__
+    raise TypeError(f'Имя может быть только строкой, передано {type(name).__name__}')
+TypeError: Имя может быть только строкой, передано float
+2025_01_16 22:06:20 root INFO: "test_run" выполнен успешно [module_12_4 | MainThread]
+2025_01_16 22:06:20 root WARNING: Неверная скорость для Runner [module_12_4 | MainThread]
+Traceback (most recent call last):
+  File "C:\PythonProjects\homework\Module_12\module_12_4.py", line 20, in test_walk
+    person = test.Runner('Вовка', speed=-5)  # Отрицательное значение - для проверки логгирования ошибки.
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\PythonProjects\homework\Module_12\test_12_4.py", line 19, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -5

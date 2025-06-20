@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/3-3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Site For Import" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Test/git-2-homeworks-merge" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/git-2-homeworks-fork" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/git-2-homeworks-revert" vcs="Git" />
+  </component>
+</project>
