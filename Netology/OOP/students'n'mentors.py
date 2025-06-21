@@ -211,7 +211,7 @@ print(f'Лекторы:\n'
       f'--------', lecturer_1, lecturer_2, sep='\n')
 
 print(f'Сравнение оценок:\n'
-      f'--------')
+      f'-----------------')
 print(f'{student_1.overall_avr_grade} == {student_2.overall_avr_grade} {student_1 == student_2}')  # False
 print(f'{student_1.overall_avr_grade} > {student_2.overall_avr_grade} {student_1 > student_2}')  # True
 print(f'{student_1.overall_avr_grade} >= {student_2.overall_avr_grade} {student_1 >= student_2}')  # True
